@@ -9,14 +9,9 @@ import { Bannertype } from "./types/banner";
 export default function Home() {
   const [isDrawerOpen, setDrawerOpen] = useState(false);
   const [banners, setBanners] = useState(bannersdata);
-  const [selectedBanner, setSelectedBanner] = useState<Bannertype>({
-    id: 1,
-    title: "Savor Every Bite",
-    description: "Induldge in our exquisite flavors crafted just for you.",
-    cta: "Get Special Offers",
-    image: "./dining.jpg",
-    background: "./image2.png",
-  });
+  const [selectedBanner, setSelectedBanner] = useState<Bannertype>(
+    bannersdata[0]
+  );
   const handleEdit = (banner: any) => {
     console.log(banner);
     setSelectedBanner(banner);
@@ -30,7 +25,7 @@ export default function Home() {
   const closeDrawer = () => setDrawerOpen(false);
   return (
     <main className="flex  min-h-screen justify-center p-8 bg-cyan-500">
-      <div className=" w-[60vw] h-full flex flex-col justify-center items-center">
+      <div className=" w-[80vw] h-full flex flex-col justify-center items-center">
         <div className="brand flex flex-col justify-center items-center">
           <img
             className=" w-[100px] h-[100px]  "
