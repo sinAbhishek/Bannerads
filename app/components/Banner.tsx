@@ -1,13 +1,15 @@
 import React from "react";
 import { MdEdit } from "react-icons/md";
 import { BannerProps } from "../types/banner";
+import Image from "next/image";
+
 const Banner = ({ data, openDrawer, edit }: BannerProps) => {
   const handleClick = () => {
     edit(data);
     openDrawer();
   };
   return (
-    <div className=" w-[400px] h-[400px] bg-slate-300 relative  ">
+    <div className=" min-w-[400px] w-[400px] h-[400px] bg-slate-300 relative  ">
       <img className=" w-full h-full" src={data.background} alt="" />
       <img
         className=" w-[200px] h-[200px] z-20  absolute bottom-[25%] right-10 rounded-full"

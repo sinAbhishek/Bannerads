@@ -4,7 +4,7 @@ const PreviewBanner = ({ data }: any): any => {
     <div className=" w-[300px] h-[200px] bg-slate-300 relative  ">
       <img className=" w-full h-full" src={data?.background} alt="" />
       <img
-        className=" w-[50px] h-[50px] z-20  absolute bottom-[25%] right-10 rounded-full"
+        className=" w-[90px] h-[90px] z-20  absolute bottom-[25%] right-10 rounded-full"
         src={data?.image}
         alt=""
       />

@@ -4,7 +4,7 @@
       "title": "Savor Every Bite",
       "description": "Induldge in our exquisite flavors crafted just for you.",
       "cta": "Get Special Offers",
-      "image": "./dining.jpg",
+      "image": "/dining.jpg",
       "background": "./image2.png"
     },
     {
@@ -12,7 +12,7 @@
         "title": "Upgrade Your Tech Collection",
         "description": "Discover High-Quality Devices",
         "cta":"Check Offers",
-        "image": "./tech.jpg",
+        "image": "/tech.jpg",
         "background": "./image2.png"
     },
     {
@@ -20,7 +20,7 @@
         "title": "Boost Your Leads",
         "description": "Harness AI for effective campaigns.",
         "cta": "Click Here",
-        "image": "./leads.jpg",
+        "image": "/leads.jpg",
         "background": "./image2.png"
     },
     {
@@ -28,7 +28,7 @@
         "title": "Take Your Business to New Heights",
         "description": "Enhance Your Brand Visibility",
         "cta": "Explore More",
-        "image": "./buisness.jpg",
+        "image": "/buisness.jpg",
         "background":"./image2.png"
     }
   ]
