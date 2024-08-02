@@ -41,7 +41,12 @@ export default function Home() {
         </div>
         <div className="flex w-full flex-wrap justify-center items-center h-max gap-4 mt-4">
           {banners.map((ad) => (
-            <Banner data={ad} openDrawer={openDrawer} edit={handleEdit} />
+            <Banner
+              data={ad}
+              key={ad.id}
+              openDrawer={openDrawer}
+              edit={handleEdit}
+            />
           ))}
         </div>
         <div className="">
