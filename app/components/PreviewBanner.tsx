@@ -1,5 +1,6 @@
 import React from "react";
-const PreviewBanner = ({ data }: any): any => {
+import { Bannertype } from "../types/banner";
+const PreviewBanner = ({ data }: any) => {
   return (
     <div className=" w-[300px] h-[200px] bg-slate-300 relative  ">
       <img className=" w-full h-full" src={data?.background} alt="" />
