@@ -1,5 +1,3 @@
-import Banner from "../components/Banner";
-
 export type Bannertype = {
     id: number;
     title: string;
